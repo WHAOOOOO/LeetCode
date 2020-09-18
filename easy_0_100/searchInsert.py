@@ -1,5 +1,6 @@
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
+	# 搜索插入位置
         if target in nums:
             return nums.index(target)
         else:
