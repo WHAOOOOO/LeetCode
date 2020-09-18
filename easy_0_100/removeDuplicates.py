@@ -1,5 +1,6 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
+	# 删除排序数组中的重复项
         n = len(set(nums))
         i = 1
         while i < n:
