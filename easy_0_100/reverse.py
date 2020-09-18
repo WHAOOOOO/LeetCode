@@ -1,5 +1,6 @@
 class Solution:
     def reverse(self, x: int) -> int:
+	# 整数反转
         a = -x
         b = ''
         c = ''
