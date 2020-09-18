@@ -1,5 +1,6 @@
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
+	# 最长公共前缀
         '''
         1. 列表是否为空
         2. 算出最短字符串长度
