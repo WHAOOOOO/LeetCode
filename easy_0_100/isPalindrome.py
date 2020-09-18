@@ -1,5 +1,6 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
+	# 回文数
         if x < 0:
             return False
         elif x >= 0 and x < 10:
