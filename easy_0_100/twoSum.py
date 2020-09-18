@@ -1,5 +1,6 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+	# 两数之和
         new_List = []
         a = 0
         for i in nums:
