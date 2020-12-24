@@ -1,0 +1,12 @@
+c++:
+
+数据类型的转换：
+    整型转换为字符串(to_string)：
+        int test_i = 123;
+        string test_s;
+        test_s = to_string(test_i);
+    字符串转换成数字：
+        int test_i;
+        string test_s = "123";
+        test_i = stoi(test_s);
+        // note: 使用stoi, stod, stol, stoll可将字符串转换成int, double, long, long long 
